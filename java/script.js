@@ -1,3 +1,5 @@
+
+
 const body = document.querySelector('body');
 const h4 = document.querySelector('h4');
 const cont = document.querySelector('p');
@@ -27,7 +29,7 @@ let randomImgId = 1
 
 const addTask = (task) => {
   const taskItem = document.createElement('div');
-  taskItem.classList.add('form-check', 'd-flex', 'align-items-center', 'gap-3');
+  taskItem.classList.add('form-check', 'd-flex', 'align-items-center', 'gap-');
   taskItem.innerHTML = `
     <input class="task-check" type="checkbox" id="task-${taskId}">
     <label class="task-check-label" for="task-${taskId}">${task}</label>
